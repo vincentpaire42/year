@@ -59,7 +59,7 @@
     </div>
     <div class="row">
       <div class="col-md-8 d-flex align-items-center">
-        <p style="align-content: space-around;">
+        <p style="text-align: justify;">
           Le projet yEAR (Easy Access Room) vise à améliorer la gestion de salles de cours grâce à la technologie IoT en
           permettant aux étudiants de savoir en temps réel le nombre de places disponibles dans chaque salle et
           optimiser leur temps de travail.
@@ -120,7 +120,7 @@
                   <div><img src="./img/tete/louisv2.png" alt="Photo" class="img-modal"></div>
                   <br>
                   <div class="description-modal">
-                    <p>Il a été chargé de la gestion de la sécurité du projet. Il a réfléchi sur l’ensemble des aspects
+                    <p>BAGILET Louis a été chargé de la gestion de la sécurité du projet. Il a réfléchi sur l’ensemble des aspects
                       nécessaires pour une réalisation concrète du projet et son implémentation au sein d’une
                       infrastructure
                       réseau. Il a géré les solutions les plus optimales pour sécuriser les échanges entre les
@@ -203,12 +203,20 @@
                   <div><img src="./img/tete/arturv2.png" alt="Photo" class="img-modal"></div>
                   <br>
                   <div class="description-modal">
-                    <p> a réalisé le site vitrine du projet. Dans le cadre de cette mission, il a identifié avec
-                      précision le rôle de chaque membre du groupe. Il a également recensé les besoins en équipements et
-                      matériels pour assurer le bon déroulement du projet. En plus de ses compétences en développement
-                      web, il a également étendu ses talents en tant que photographe, en réalisant des prises de vue
-                      mettant en valeur le matériel IoT utilisé dans le cadre du projet afin de documenter et détailler
-                      leur fonctionnalités.</p>
+                    <p>Arthur PATUREL a développé un programme en Arduino qui permet de contrôler l'affichage d'écran
+                      LCD 16x2 et la lecture de badges RFID.
+                      Au démarrage de la carte Arduino Uno WiFi Rev 2, le programme appelle l'API pour récupérer les
+                      données correspondant à la salle devant lequel se trouve l'écran. La capacité de cette salle, le
+                      nombre de places occupées, et le nombre de places restantes sont ainsi visibles sur chaque écran.
+                      Chaque fois qu'un badge RFID est présenté au lecteur, le code appelle de nouveau l'API pour
+                      récupérer cette fois le nom et prénom de la personne associée au badge. Il affiche ces
+                      informations pendant 2 secondes sur l'écran, avant de revenir aux informations concernant la
+                      salle.
+                      L'API est appelée toutes les 60 secondes pour récupérer les dernières informations et les mettre à
+                      jour sur l'écran LCD si nécessaire.
+                      Arthur a permis de gérer les entrées dans une salle en identifiant les personnes à l'aide de
+                      badges RFID et en affichant en temps réel l'état de la salle sur l'écran.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -278,12 +286,18 @@
                   <div><img src="./img/tete/emilev2.png" alt="Photo" class="img-modal"></div>
                   <br>
                   <div class="description-modal">
-                    <p> a réalisé le site vitrine du projet. Dans le cadre de cette mission, il a identifié avec
-                      précision le rôle de chaque membre du groupe. Il a également recensé les besoins en équipements et
-                      matériels pour assurer le bon déroulement du projet. En plus de ses compétences en développement
-                      web, il a également étendu ses talents en tant que photographe, en réalisant des prises de vue
-                      mettant en valeur le matériel IoT utilisé dans le cadre du projet afin de documenter et détailler
-                      leur fonctionnalités.</p>
+                    <p> Emile BAILEY a développé un programme pour ESP32 qui permet de lire les badges RFID avec un
+                      capteur RC-522, de se connecter au réseau wifi et de communiquer avec un serveur distant en
+                      utilisant des requêtes API personnalisées.
+                      Les badges RFID (qui sont des cartes contenant des puces électroniques qui peuvent être lues sans
+                      contact) sont ainsi utilisées comme moyen d'identification.
+                      Grâce à son travail sur la connexion wifi avec l’ESP32 et l’envoi de requêtes personnalisées
+                      dépendantes du badge utilisé, le programme peut communiquer avec un serveur distant et envoyer des
+                      données spécifiques à chaque badge détecté.
+                      Il a aussi porté le code précédemment réalisé par Arthur PATUREL pour Arduino sur ESP32. Cela
+                      permet d'utiliser le même code pour différents types de microcontrôleurs, ce qui facilite la
+                      portabilité et la réutilisation du code.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -312,12 +326,11 @@
                   <div><img src="./img/tete/nonov2.png" alt="Photo" class="img-modal"></div>
                   <br>
                   <div class="description-modal">
-                    <p> a réalisé le site vitrine du projet. Dans le cadre de cette mission, il a identifié avec
-                      précision le rôle de chaque membre du groupe. Il a également recensé les besoins en équipements et
-                      matériels pour assurer le bon déroulement du projet. En plus de ses compétences en développement
-                      web, il a également étendu ses talents en tant que photographe, en réalisant des prises de vue
-                      mettant en valeur le matériel IoT utilisé dans le cadre du projet afin de documenter et détailler
-                      leur fonctionnalités.</p>
+                    <p>Noémie ANNEG a développé le système qui permet d’afficher, sur les écrans présents à chaque
+                      étage, les salles disponibles, leurs statuts et le nombre de places libres dans chacune. Elle a
+                      également pris en charge la création du dossier technique du projet, un document qui facilite la
+                      communication et la coordination entre les différentes parties prenantes du projet et peut
+                      faciliter l’évolution du projet.</p>
                   </div>
                 </div>
               </div>
@@ -346,7 +359,7 @@
                   <div><img src="./img/tete/bastien.png" alt="Photo" class="img-modal"></div>
                   <br>
                   <div class="description-modal">
-                    <p> a réalisé le site vitrine du projet. Dans le cadre de cette mission, il a identifié avec
+                    <p>EXPOSITO Bastien a réalisé le site vitrine du projet. Dans le cadre de cette mission, il a identifié avec
                       précision le rôle de chaque membre du groupe. Il a également recensé les besoins en équipements et
                       matériels pour assurer le bon déroulement du projet. En plus de ses compétences en développement
                       web, il a également étendu ses talents en tant que photographe, en réalisant des prises de vue
@@ -562,14 +575,16 @@
           <img src="./img/vitrine/modul-complémentaire1.jpg" class="d-block mx-auto w-50 h-60" alt="screenshot5">
           <div class="carousel-caption d-none d-md-block">
             <h3 style="color: rgb(0, 0, 0);">Petit mudule modul complémentaire</h3>
-            <p style="color: rgb(0, 0, 0);">des petits modul-complémentaire que l'on aurait rajouter avec un peux plus de temp pour des signals visuels et detection de température et de luminosité</p>
+            <p style="color: rgb(0, 0, 0);">des petits modul-complémentaire que l'on aurait rajouter avec un peux plus
+              de temp pour des signals visuels et detection de température et de luminosité</p>
           </div>
         </div>
         <div class="carousel-item">
           <img src="./img/vitrine/modul-complémentaire2.jpg" class="d-block mx-auto w-50 h-60" alt="screenshot5">
           <div class="carousel-caption d-none d-md-block">
             <h3 style="color: rgb(0, 0, 0);">Petit mudule complémentaire</h3>
-            <p style="color: rgb(0, 0, 0);">des petits modul-complémentaire que l'on aurait rajouter avec un peux plus de temp pour des signals sonor</p>
+            <p style="color: rgb(0, 0, 0);">des petits modul-complémentaire que l'on aurait rajouter avec un peux plus
+              de temp pour des signals sonor</p>
           </div>
         </div>
       </div>
